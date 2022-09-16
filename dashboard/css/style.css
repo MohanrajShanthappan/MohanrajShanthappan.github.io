@@ -578,6 +578,7 @@ select {
     position: fixed !important;
     width: calc(100% - 250px);
   }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -703,6 +704,7 @@ select {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
   }
+
 }
 
 
@@ -715,7 +717,10 @@ select {
     margin-right: 0.7rem;
     margin-bottom: .5rem;
   }
-
+ tbody, td:nth-child(4){}
+ table {
+  width: 900px !important;
+}
 }
 
 @media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
