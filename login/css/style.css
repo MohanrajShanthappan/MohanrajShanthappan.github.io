@@ -123,7 +123,7 @@ button:hover {
     .custome-p-5 {
         padding: 1.5rem !important
     }
-
+    .m-5{margin-left: 0 !important; margin-right: 0 !important;}
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 991px) {
